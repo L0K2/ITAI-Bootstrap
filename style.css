@@ -1,0 +1,12 @@
+:root{
+    --bg-color:#002f49
+}
+.head{
+    background-color: var(--bg-color);
+    color:#fff;
+}
+.icone{
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 0.3rem;
+}
