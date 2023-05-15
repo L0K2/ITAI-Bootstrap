@@ -1,5 +1,6 @@
 :root{
-    --bg-color:#002f49
+    --bg-color:#002f49;
+    --warning-color:#ffc107;
 }
 .head{
     background-color: var(--bg-color);
@@ -9,4 +10,15 @@
     color: #fff;
     font-size: 1.8rem;
     padding: 0.3rem;
+}
+/* a:hover{
+    color: var(--warning-color);
+} */
+.msgEntrada{
+    background-color: var(--bg-color);
+    color: white;
+}
+.card-link{
+    text-decoration: none;
+    color: var(--warning-color);
 }
